@@ -29,10 +29,11 @@
     }
 
     .box {
+        max-width: 1024px;
         display: grid;
         place-items: center;
         background-color: #ff6655;
-        width: 640px;
+        width: 50vw;
         height: 480px;
         border-radius: 40px;
 
@@ -52,7 +53,7 @@
         background-color: #ff6655;
         padding-left: 10px;
         border-radius: 70px;
-        width: 50vw;
+        width: 35vw;
         height: 50px;
         color: #fff;
     }
@@ -62,7 +63,7 @@
         background-color: #ff6655;
         padding-left: 10px;
         border-radius: 70px;
-        width: 50vw;
+        width: 35vw;
         height: 50px;
         top: 50%;
         color: #fff;
@@ -74,7 +75,7 @@
         border-radius: 10px;
         color: #ff6655;
         font-weight: bolder;
-        width: 25vw;
+        width: 17.5vw;
         height: 35px;
         border: 0;
         background-color: #fff;
