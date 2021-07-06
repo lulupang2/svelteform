@@ -24,17 +24,19 @@
         place-items: center;
         text-align: center;
         padding: 1em;
-        margin: 0 auto;
         min-width: 100vw;
+        max-width: 640px;
+
     }
 
     .box {
-        max-width: 1024px;
+
         display: grid;
         place-items: center;
         background-color: #ff6655;
-        width: 50vw;
-        height: 480px;
+        width: 30vmax;
+        padding-top: 4em;
+        padding-bottom: 4em;
         border-radius: 40px;
 
     }
@@ -45,7 +47,7 @@
     }
     input:focus{
         outline: none;
-        caret-color: #ff6655;
+        caret-color: #FFF;
     }
 
     .box input[type=text] {
@@ -53,7 +55,7 @@
         background-color: #ff6655;
         padding-left: 10px;
         border-radius: 70px;
-        width: 35vw;
+        width: 40vmin;
         height: 50px;
         color: #fff;
     }
@@ -63,7 +65,7 @@
         background-color: #ff6655;
         padding-left: 10px;
         border-radius: 70px;
-        width: 35vw;
+        width: 40vmin;
         height: 50px;
         top: 50%;
         color: #fff;
